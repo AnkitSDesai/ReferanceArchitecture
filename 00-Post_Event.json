@@ -1,0 +1,9 @@
+###Kick Off Data Flow through Triggering a manual post/put Event to kenesis Topic
+aws kinesis post-record --stream-name lambda-stream --partition-key 1 \  --data 
+{
+    "Payload-Key": "PayLoad-Value", //need to ensure we we have some kind of Unique Key per event that we post to KKenes.
+    "Payload-Key": "PayLoad-Value",
+    ...............
+    ........................
+    ...............................
+}
